@@ -6,15 +6,14 @@ description: >-
   as action-task-result-impact, a keyword-gap placement map, five drafted resume
   summaries, a full LinkedIn rewrite, and twenty likely interview questions with
   sample answers. Use whenever the user wants the better version written: a resume
-  rewritten for a specific role, stronger bullets, missing keywords worked in, a
-  summary or LinkedIn headline and About section, or interview answers, even if
-  they never say "skill". Not for judging: scans, critiques, ATS checks, rejection
-  reasons, gap or coverage analysis, LinkedIn audits, and predicting questions
-  belong to the recruiter-lens skill, and this skill hands off to it. Can
-  optionally use the third-party recruiter-lens MCP server by dani-aisystems
-  for checkable GitHub facts (audit_repo, recruiter_scan; needs a
-  GITHUB_TOKEN); it runs third-party code. Works standalone and with either
-  companion, neither, or both.
+  rewritten for a role, stronger bullets, missing keywords worked in, a summary or
+  LinkedIn headline and About section, or interview answers. Not for judging
+  (scans, critiques, ATS checks, rejection reasons, gap analysis, LinkedIn audits,
+  predicting questions): use the recruiter-lens skill. Not for running the search
+  itself (finding roles, the application tracker, follow-ups, interview briefings):
+  use the application-pilot skill. Optionally uses the third-party dani-aisystems
+  recruiter-lens MCP server for checkable GitHub facts; it runs third-party code.
+  Works standalone or with either companion.
 ---
 
 # Job Lens
