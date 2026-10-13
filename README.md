@@ -1,6 +1,17 @@
 # job-lens
 
-Produces tailored job-application material from a resume and a job description.
+A resume-writing and job-application agent skill for Claude Code, Cursor, Codex and Qoder. Give it your resume and a job description and it writes the material: a decoded JD, a resume tailored to the role, bullets rewritten as action, task, result and impact, a keyword placement map, five summary options, a full LinkedIn rewrite, and an interview answer pack built only from your real experience. It never invents experience or numbers.
+
+Install: `npx skills add arm-pz/job-lens --skill job-lens`
+
+Ask it things like:
+
+- "Decode this job description and rewrite my resume for it."
+- "Rewrite my bullets for this role."
+- "Which keywords am I missing, and where can I honestly add them?"
+- "Write my LinkedIn headline and About section."
+
+job-lens writes; [recruiter-lens](https://github.com/arm-pz/recruiter-lens) judges — use recruiter-lens to find out what is weak, then job-lens to fix it.
 
 | Mode | What you get |
 |---|---|
