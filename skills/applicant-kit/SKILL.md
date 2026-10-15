@@ -1,5 +1,5 @@
 ---
-name: job-lens
+name: applicant-kit
 description: >-
   Produces tailored job-application material from a resume and a job description:
   a decoded JD table with must-have versus nice-to-have, resume bullets rewritten
@@ -30,7 +30,7 @@ Keep these apart, because they are unrelated projects that share a name:
 - **recruiter-lens skill** (the sibling of this skill). It judges: 6-second scans, critiques, ATS checks, reject reasons, question prediction, gap analysis and tailoring coverage, LinkedIn audits, and AI-use guidelines. This skill defers to it for anything that is a verdict. See `references/recruiter-lens-skill.md`.
 - **recruiter-lens MCP server** (third-party, dani-aisystems). It reports checkable GitHub facts through `audit_repo` and `recruiter_scan`. It is optional and runs third-party code with a GitHub token. See `references/github-mcp.md`.
 
-The division of labor: recruiter-lens judges, job-lens produces. If a request is "tell me what is wrong", it belongs to the recruiter-lens skill. If it is "write me the better version", it belongs here.
+The division of labor: recruiter-lens judges, applicant-kit produces. If a request is "tell me what is wrong", it belongs to the recruiter-lens skill. If it is "write me the better version", it belongs here.
 
 ## Step 1: Pick the mode
 

@@ -1,14 +1,14 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
-  "name": "job-lens",
+  "name": "applicant-kit",
   "version": "0.1.0",
   "description": "Produces tailored job-application material (JD decode, bullet rewrites, keyword placement, summaries, LinkedIn rewrite, interview answer pack). Sibling of the recruiter-lens skill, which does the judging.",
   "author": {
     "name": "arm-pz",
     "url": "https://github.com/arm-pz"
   },
-  "homepage": "https://github.com/arm-pz/job-lens",
-  "repository": "https://github.com/arm-pz/job-lens",
+  "homepage": "https://github.com/arm-pz/applicant-kit",
+  "repository": "https://github.com/arm-pz/applicant-kit",
   "keywords": ["resume", "job-search", "ats", "linkedin", "interview-prep"],
   "skills": "./skills/"
 }
