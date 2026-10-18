@@ -82,4 +82,4 @@ applicant-kit/
 
 ## Credits
 
-Workflow patterns adapted from a public prompt thread by [@codeby_abir](https://x.com/codeby_abir). Optional GitHub-facts integration uses the dani-aisystems recruiter-lens MCP server; applicant-kit is not affiliated with it.
+Workflow patterns adapted from a public prompt thread by [@codeby_abir](https://x.com/codeby_abir). Optional GitHub-facts integration uses the third-party dani-aisystems recruiter-lens MCP server — an unrelated project that shares the name; applicant-kit is not affiliated with it.

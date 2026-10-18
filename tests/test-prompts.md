@@ -111,10 +111,9 @@ reworded. Sibling: recruiter-lens (judges); partner IDs refer to cases in
   source for "No re-derived verdict". Either write the handoff-block file
   (both siblings' spanning cases then share one spec) or reword A12 and
   recruiter-lens R14 to point at `recruiter-lens-skill.md`.
-- Naming: the GitHub repo was already `arm-pz/applicant-kit` (default
-  branch `master`) while this local clone kept the old `job-lens`
-  directory name, remote URL, and skill-dir/frontmatter name. The repo
-  copy also lagged the installed applicant-kit skill (pre-rename SKILL.md
-  and recruiter-lens-skill.md). All of that is now applicant-kit on
-  `master`; aligning `master` with recruiter-lens's `main` is a separate,
-  remote-affecting decision.
+- Naming: the GitHub repo was renamed to `arm-pz/applicant-kit` on
+  2026-10-15 (commit c8fb219), but this local clone kept the old
+  `job-lens` directory name, remote URL, and skill-dir/frontmatter name
+  until the 2026-10-18 unify commit merged both sides. The default branch
+  is still `master`; aligning it with recruiter-lens's `main` is a
+  separate, remote-affecting decision.
